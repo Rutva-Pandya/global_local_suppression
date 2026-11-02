@@ -1,0 +1,25 @@
+# Raw model outputs (~700 MB): responses, judge ratings, ΔLP scores and
+# cross-scenario relevance ratings. Shipped as data/data.zip; the unzipped
+# folders are not tracked.
+/data/*
+!/data/critical_stimuli.csv
+!/data/control_stimuli.csv
+!/data/data.zip
+
+# Local only: tests and coding-agent instructions.
+/tests/
+/AGENTS.md
+/CLAUDE.md
+
+# Outputs of new pipeline runs and judge-server logs.
+/analysis/rerun/
+/figures/rerun/
+/logs/
+
+# Caches and local environment.
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+.DS_Store
