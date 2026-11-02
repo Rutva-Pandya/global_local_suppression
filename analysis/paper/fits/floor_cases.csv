@@ -1,0 +1,5 @@
+"figure","profile","contrast_id","evaluated_model","estimate","standard_error","degrees_of_freedom","ci95_low","ci95_high","p_value","status","interpretation_status"
+"fact_usage","control","suppression_minus_baseline","meta-llama/Llama-3.1-8B-Instruct",0,,,,,,"descriptive_floor","as_defined"
+"fact_usage","control","suppression_minus_baseline","meta-llama/Llama-3.1-70B-Instruct",0,,,,,,"descriptive_floor","as_defined"
+"fact_usage","control","suppression_minus_baseline","Qwen/Qwen2.5-7B-Instruct",0.01,,,,,,"descriptive_floor","as_defined"
+"fact_usage","control","suppression_minus_baseline","Qwen/Qwen2.5-72B-Instruct",0,,,,,,"descriptive_floor","as_defined"

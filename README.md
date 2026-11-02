@@ -1,4 +1,4 @@
-# Simulating Ignorance
+# Simulating Ignorance: Measuring Global and Local Knowledge Suppression in Language Models
 
 This repository contains code and saved data for *Simulating Ignorance:
 Measuring Global and Local Knowledge Suppression in Language Models*,

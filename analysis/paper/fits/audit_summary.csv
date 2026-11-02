@@ -1,0 +1,6 @@
+"figure","comparable_tests","significance_changes","max_estimate_change"
+"global_expertise",40,0,0
+"global_delta_logprob",40,0,0
+"fact_usage",20,0,0
+"local_delta_logprob",24,0,0
+"context_anchor_diagnostics",48,0,0

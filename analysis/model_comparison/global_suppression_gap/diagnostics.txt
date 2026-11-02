@@ -1,0 +1,51 @@
+Linear mixed-effects model fit by REML
+  Data: d 
+       AIC     BIC    logLik
+  93.85291 116.932 -37.92646
+
+Random effects:
+ Formula: ~1 | scenario_id
+        (Intercept)  Residual
+StdDev:   0.2310539 0.2216853
+
+Variance function:
+ Structure: Different standard deviations per stratum
+ Formula: ~1 | evaluated_model 
+ Parameter estimates:
+meta-llama/Llama-3.1-70B-Instruct  meta-llama/Llama-3.1-8B-Instruct 
+                         1.000000                          0.949958 
+        Qwen/Qwen2.5-72B-Instruct          Qwen/Qwen2.5-7B-Instruct 
+                         2.120270                          1.277384 
+Fixed effects:  comparison_score ~ 0 + evaluated_model 
+                                                      Value  Std.Error DF
+evaluated_modelmeta-llama/Llama-3.1-8B-Instruct   0.0973476 0.06252513 72
+evaluated_modelmeta-llama/Llama-3.1-70B-Instruct  0.1772963 0.06404070 72
+evaluated_modelQwen/Qwen2.5-7B-Instruct          -0.1397403 0.07309591 72
+evaluated_modelQwen/Qwen2.5-72B-Instruct          0.4170426 0.10475049 72
+                                                   t-value p-value
+evaluated_modelmeta-llama/Llama-3.1-8B-Instruct   1.556935  0.1239
+evaluated_modelmeta-llama/Llama-3.1-70B-Instruct  2.768495  0.0072
+evaluated_modelQwen/Qwen2.5-7B-Instruct          -1.911739  0.0599
+evaluated_modelQwen/Qwen2.5-72B-Instruct          3.981295  0.0002
+ Correlation: 
+                                                 e_-/L-3.1-8 e_-/L-3.1-7
+evaluated_modelmeta-llama/Llama-3.1-70B-Instruct 0.533                  
+evaluated_modelQwen/Qwen2.5-7B-Instruct          0.467       0.456      
+evaluated_modelQwen/Qwen2.5-72B-Instruct         0.326       0.318      
+                                                 e_Q/Q2.5-7B
+evaluated_modelmeta-llama/Llama-3.1-70B-Instruct            
+evaluated_modelQwen/Qwen2.5-7B-Instruct                     
+evaluated_modelQwen/Qwen2.5-72B-Instruct         0.279      
+
+Standardized Within-Group Residuals:
+       Min         Q1        Med         Q3        Max 
+-1.9052081 -0.4672748 -0.0623617  0.4419852  2.2841861 
+
+Number of Observations: 100
+Number of Groups: 25 
+scenario_id = pdLogChol(1) 
+            Variance   StdDev   
+(Intercept) 0.05338592 0.2310539
+Residual    0.04914436 0.2216853
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+-1.90521 -0.46727 -0.06236  0.00000  0.44199  2.28419 

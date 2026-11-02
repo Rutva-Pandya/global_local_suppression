@@ -1,0 +1,3 @@
+complete
+global_expertise,global_delta_logprob,fact_usage,local_delta_logprob,context_anchor_diagnostics
+REML; model-specific residual variance; nlme containment; no adjustment

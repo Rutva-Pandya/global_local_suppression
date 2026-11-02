@@ -1,0 +1,9 @@
+torch
+transformers
+accelerate
+minicons==0.3.38
+matplotlib
+Pillow
+scipy
+pytest
+google-genai

@@ -1,0 +1,26 @@
+target_order,target_scenario_id,target_domain,target_topic,donor_order,donor_scenario_id,donor_domain,donor_topic,n_ratings,persona_mean,fact_mean,general_mean,composite_mean,persona_sample_sd,fact_sample_sd,general_sample_sd,composite_sample_sd,persona_range,fact_range,general_range,total_score_sum,eligible,within_target_rank,kept_preferred_pair,human_review_status
+0,S-ARCHITECTURE,social,Architecture,19,S-TEA,social,Tea tasting,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,17,True,pending
+1,S-ART,social,Art history,2,S-AUTO,social,Auto mechanics,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,1,True,pending
+2,S-AUTO,social,Auto mechanics,14,S-PERFUME,social,Perfume,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,13,True,pending
+3,S-BIRDWATCHING,social,Birdwatching,20,S-TYPOGRAPHY,social,Typography,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,16,True,pending
+4,S-CLIMBING,social,Rock climbing,5,S-COFFEE,social,Coffee,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,5,True,pending
+5,S-COFFEE,social,Coffee,22,S-WELDING,social,Welding,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,18,True,pending
+6,S-COOKING,social,Cooking,12,S-HOROLOGY,social,Horology,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,11,True,pending
+7,S-DANCE,social,Dance,11,S-GEMOLOGY,social,Gemology,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,7,True,pending
+8,S-FASHION,social,Fashion,13,S-MUSIC,social,Music production,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,9,True,pending
+9,S-FILM,social,Film criticism,10,S-GARDENING,social,Gardening,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,5,True,pending
+10,S-GARDENING,social,Gardening,9,S-FILM,social,Film criticism,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,10,True,pending
+11,S-GEMOLOGY,social,Gemology,17,S-RUNNING,social,Running,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,12,True,pending
+12,S-HOROLOGY,social,Horology,6,S-COOKING,social,Cooking,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,4,True,pending
+13,S-MUSIC,social,Music production,24,S-WOODWORK,social,Woodworking,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,20,True,pending
+14,S-PERFUME,social,Perfume,4,S-CLIMBING,social,Rock climbing,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,5,True,pending
+15,S-PHOTOGRAPHY,social,Photography,23,S-WINE,social,Wine tasting,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,18,True,pending
+16,S-POTTERY,social,Pottery,21,S-VOCAL,social,Vocal coaching,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,15,True,pending
+17,S-RUNNING,social,Running,1,S-ART,social,Art history,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,2,True,pending
+18,S-SKIING,social,Skiing,0,S-ARCHITECTURE,social,Architecture,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,1,True,pending
+19,S-TEA,social,Tea tasting,15,S-PHOTOGRAPHY,social,Photography,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,12,True,pending
+20,S-TYPOGRAPHY,social,Typography,3,S-BIRDWATCHING,social,Birdwatching,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,2,True,pending
+21,S-VOCAL,social,Vocal coaching,16,S-POTTERY,social,Pottery,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,14,True,pending
+22,S-WELDING,social,Welding,7,S-DANCE,social,Dance,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,6,True,pending
+23,S-WINE,social,Wine tasting,18,S-SKIING,social,Skiing,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,15,True,pending
+24,S-WOODWORK,social,Woodworking,8,S-FASHION,social,Fashion,5,1,1,1,1.0,0.0,0.0,0.0,0.0,0,0,0,15,True,7,True,pending
